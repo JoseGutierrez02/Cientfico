@@ -15,7 +15,6 @@ const Character = () => {
             </article>
         </section>
     `
-
     return view
 }
 
