@@ -20,7 +20,6 @@ body {
 }
 
 .Main {
-  width: 100vw;
   padding: 10px;
   grid-template-columns: minmax(auto, 976px);
   display: grid;
@@ -28,8 +27,7 @@ body {
 }
 
 .Characters {
-  width: 100%;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 1.5rem;
   grid-row-gap: 1.5em;
   display: grid;
